@@ -65,7 +65,7 @@ export class DNSHealthIndicator extends HealthIndicator {
   }
 
   /**
-   * Checks if the given url respons in the given timeout
+   * Checks if the given url responds withina specified timeout
    * and returns a result object corresponding to the result
    * @param key The key which will be used for the result object
    * @param url The url which should be request
